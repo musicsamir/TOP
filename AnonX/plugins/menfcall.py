@@ -3,14 +3,14 @@ from AnonX import app
 import asyncio
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from AnonX.core.call import Yukki
+from AnonX.core.call import AnonX
 from AnonX.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
 
 @app.on_message(filters.regex("^مين في الكول$"))
 async def strcall(client, message):
-    assistant = await group_assistant(Yukki,message.chat.id)
+    assistant = await group_assistant(AnonX,message.chat.id)
     try:
         await assistant.join_group_call(message.chat.id, AudioPiped("./assets/vega.mp3"), stream_type=StreamType().pulse_stream)
         text="🙃🔔 الارانب  المتواجدين في الكول :\n\n"
