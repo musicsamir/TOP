@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌯‹ 𝚜𝚘𝚞𝚛𝚌𝚎 𝚜𝚎𝚖𝚘 ›⁩⌯", url=f"https://t.me/FTTUTY"
+                text="⌯‹ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ›⁩⌯", url=f"https://t.me/SOURCE_TOOP"
             )
         ],
         [
@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌯‹ 𝚜𝚘𝚞𝚛𝚌𝚎 𝚜𝚎𝚖𝚘 ›⁩⌯", url=f"https://t.me/FTTUTY"
+                text="⌯‹ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ›⁩⌯", url=f"https://t.me/SOURCE_TOOP"
             )
         ],
         [
@@ -157,7 +157,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌯‹ 𝚜𝚘𝚞𝚛𝚌𝚎 𝚜𝚎𝚖𝚘 ›⁩⌯", url=f"https://t.me/FTTUTY"
+                text="⌯‹ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ›⁩⌯", url=f"https://t.me/SOURCE_TOOP"
             )
         ],
         [
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌯‹ 𝚜𝚘𝚞𝚛𝚌𝚎 𝚜𝚎𝚖𝚘 ›⁩⌯", url=f"https://t.me/FTTUTY"
+                text="⌯‹ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ›⁩⌯", url=f"https://t.me/SOURCE_TOOP"
             )
         ],
         [
@@ -348,7 +348,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌯‹ 𝚜𝚘𝚞𝚛𝚌𝚎 𝚜𝚎𝚖𝚘 ›⁩⌯", url=f"https://t.me/FTTUTY"
+                text="⌯‹ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ›⁩⌯", url=f"https://t.me/SOURCE_TOOP"
             )
         ],
         [
