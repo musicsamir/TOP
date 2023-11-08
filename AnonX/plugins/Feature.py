@@ -36,13 +36,13 @@ from random import  choice, randint
 
 
 @app.on_message(
-    command(["مميزات","مميزات المرتجل"])
+    command(["مميزات","مميزات التوب"])
  )
 async def mmmezat(client, message):
-        await message.reply_text(f"""**مرحبآ بك عزيزي » {message.from_user.mention}**في قسم مميزات سورس المرتجل ميوزك\n
-⩹━★⊷⌯⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌝⌯⊶★━⩺
+        await message.reply_text(f"""**مرحبآ بك عزيزي » {message.from_user.mention}**في قسم مميزات سورس توب ميوزك\n
+⩹━★⊷⌯⌞ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ⌝⌯⊶★━⩺
 
-★قايمه مميزات سورس المرتجل 
+★قايمه مميزات سورس توب 
 
 ★ميزه ⦂ المطور بيجيب المطور البوت 
 ★ميزه ⦂ تبيه بفتح+قفل الكول
@@ -90,12 +90,12 @@ async def mmmezat(client, message):
 ★ميزه ⦂ فنان+اكتب اسم فنان و هتجبلك اغانيه
 ★ميزه ⦂ اصدار+حول
 
-⩹━★⊷⌯⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌝⌯⊶★━⩺""",
+⩹━★⊷⌯⌞ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ⌝⌯⊶★━⩺""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "★⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌝⚡", url=f"https://t.me/AlmortagelTech"),                        
+                        "★⌞ ᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ ⌝⚡", url=f"https://t.me/SOURCE_TOOP"),                        
                  ],[
                 InlineKeyboardButton(
                         "close", callback_data="close"),

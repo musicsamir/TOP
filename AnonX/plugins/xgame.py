@@ -8,7 +8,7 @@ from AnonX import app
 import re
 import sys
 
-GAME_MESSAGE = "★¦ مرحبا بك عزيزي:\n★¦في قسم العاب سيمو\n\n"
+GAME_MESSAGE = "★¦ مرحبا بك عزيزي:\n★¦في قسم العاب توب\n\n"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
@@ -360,12 +360,12 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "★¦مرحبا بك في قسم العاب سيمو\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n" 
+               RETURN_GAME = "★¦مرحبا بك في قسم العاب توب\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n" 
 
                RETURN_BUTTON = [
                     [ 
                       InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
-                      InlineKeyboardButton ('★¦العاب سيمو', callback_data= 'GAME2')
+                      InlineKeyboardButton ('★¦العاب توب', callback_data= 'GAME2')
                       ],[
         InlineKeyboardButton ('‹ 𝚜𝚘𝚞𝚛𝚌𝚎 𝚜𝚎𝚖𝚘 ›⁩', url =f"https://t.me/FTTUTY")              
                  ],[
@@ -380,11 +380,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "★¦العاب سيمو\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n" 
+               SOURCE_GAME = "★¦العاب توب\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n" 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('⌞ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ⌝⚡️', url =f"https://t.me/AlmortagelTech")
+                      InlineKeyboardButton ('⌞᥉᥆ᥙᖇᥴᥱ ƚ᥆ρ⌝⚡️', url =f"https://t.me/SOURCE_TOOP")
                       ],[
                          InlineKeyboardButton ('◁', callback_data= 'GAME')
                     ]
